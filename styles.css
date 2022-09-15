@@ -28,7 +28,7 @@ header {
 }
 
 header div {
-    width: 120px;
+    width: 110px;
     margin: auto;
     background-image: linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
 
@@ -37,14 +37,14 @@ header div {
     display: flex;
     padding: 4px;
     transition: transform.3s;
-    animation: fromTop.7s .4s backwards;
+    animation: fromTop.7s .2s backwards;
   
 }
 
 header div:hover{
     transform: scale(1.1);
 }
-header img{
+header div img{
     width: 100px;
     border-radius: 50%;
     
